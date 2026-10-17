@@ -5,14 +5,6 @@ function getComputerChoice(){
     else return "scissors";
 }
 
-function getHumanChoice(){
-    let choice= window.prompt("Enter Rock, Paper or Scissors","Enter R/P/S");
-    if(choice.toLowerCase()=="r"||choice.toLowerCase()=="rock") return "rock";
-    else if(choice.toLowerCase()=="p"||choice.toLowerCase()=="paper") return "paper";
-    else if(choice.toLowerCase()=="s"||choice.toLowerCase()=="scissors") return "scissors";
-    else return "invalid";
-}
-
 function getHumanChoice2(inp){
     let choice= inp;
     if(choice.toLowerCase()=="r"||choice.toLowerCase()=="rock") return "rock";
